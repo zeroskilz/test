@@ -32,10 +32,11 @@
     *  echo "test for test :" >> README.md
 ##### add the filename
     * git add README.md
-##### we must commit to the change
-###### commit information 
+##### we must commit to the change 
 [Commit info](https://git-scm.com/docs/git-commit)
+##### Make a commitment
     * git commit -m "Test  commit"
+
 ##### Info pertaining to modifications, removal, tracking uncommitted files  
     * git status
 
