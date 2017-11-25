@@ -29,7 +29,7 @@
     * git configure user.email zeroskilz@mail.com
 
 ##### create readme as markdown file
-   *  echo "# test for test :" >> README.md
+   *  echo "test for test :" >> README.md
 ##### add the filename
    * git add README.md
 ##### we must commit to the change
