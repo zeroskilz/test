@@ -5,7 +5,7 @@
 
 ### We all fail or have trouble figuring things out so dont give up and try try again
 
-![Github Logo](https:github.com/zeroskilz/test/blob/master/fail.jpeg "Epic fail")
+![Github Logo](https://github.com/zeroskilz/test/blob/master/fail.jpeg "Epic fail")
 
 
 [Great GitHub tutorial link Click me](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
