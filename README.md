@@ -1,56 +1,56 @@
-# test for test branch
-## finding it tough to get the info to start being active on github here are some good tutorials 
-### Here is a URL that has a great tutorial on how to use git from the terminal
-#### I made this change trying to make a subdirectory for test repo
+# First Github Repository
+### Sources for terminal commands
+![Github Logo](images)
 
-[Great GitHub tutorial link Click me](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
-
+[Github Tutorial](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
 
 
-### We all fail or have trouble figuring things out so dont give up and try try again
 
-![Github Logo](https://github.com/zeroskilz/test/blob/master/fail.jpeg "Epic fail")
-   
-#### set the Configuration for git 
-   * 14  git config --global core.editor vim
-   * 16  git config --global user.name zeroskilz 
-   * 18  git config --global user.email zeroskilz@mail.com 
-   * 20  git config color.status auto
-   * 21  git config --global color.status auto
-   * 22  git config --global color.branch auto
-   * 23  git config --global color.interactive auto
-   * 24  git config --global color.diff auto
-   * 25  git config --list
-   
-##### the next command makes a hidden .git folder inside the directory you executed the command in 
-   * 26  git init
-   
-##### tells you the current status of the project folder your in for git
-   * 32  git status
-
-##### this is a quick way to add all files of a specific extension such as c, py, sh, txt, etc...
-   * 37  git add *.c
-   * 38  git add *.py
-
+### 
+<!--!"*"[RESERVED FOR MD ATTRIBUTES"*"] -->
+<!--![Github $main{Rulz}]( " ")
+![Github Logo]("lorem")
+###### headers 1-6
+-->
+ 
 ##### clone a repo with git 
-   * 42  git clone https://github.com/zeroskilz/test
+    * git clone https://github.com/zeroskilz/test
 
-##### create file to be pushed  
-   * 81  echo "# test for test branch" >> README
+##### create the .git directory
+    * git init
+
+### configure git so it knows you
+###### global for all repos
+    * git configure --global user.email zeroskilz@mail.com
+    * git configure --global user.name zeroskilz
+
+##### only for the current repo
+    * git configure user.name zeroskilz
+    * git configure user.email zeroskilz@mail.com
+
+##### create readme as markdown file
+   *  echo "# test for test :" >> README.md
 ##### add the filename
-   * 82  git add README
-##### make a commit or all will fail to push
-   * 83  git commit -m "Test  commit"
+   * git add README.md
+##### we must commit to the change
+###### commit information 
+[Commit info](https://git-scm.com/docs/git-commit)
+   * git commit -m "Test  commit"
+##### Info pertaining to modifications, removal, tracking uncommitted files  
+   * git status
 
-##### create the repo to push files to 
-   * 85  git remote add origin https://github.com/zeroskilz/
+##### "Add all files with extension .c and .py
+   * git add *.c
+   * git add *.py
+   * git add filename
 
-##### Finally Push your work!!! 
-   * 91  git push -u origin master
 
-<<<<<<< HEAD
-
-## It is a good idea to create a branch for people to submitt a Pull request to for Organizational purposes!
+##### Create the alias of the git repo 
+   * git remote add origin https://github.com/zeroskilz/test.git
+##### Finally Push your work to the server!!! 
+   * git push -u origin master
+  
+## Create a Worker Branch off from test
    * git branch tester
 ##### To switch to the branch use the below code!
    * git checkout tester
@@ -58,14 +58,6 @@
    * git checkout master
 
 
-=======
-### make a branch 
-   * git branch tester
-##### switch to branch 
-   * git checkout tester
-
-##### Switch back to master
-   * git checkout master
 
 
 ![Github Logo](https://github.com/zeroskilz/test/blob/master/images.duckduckgo.com.jpeg "Social Coding")
