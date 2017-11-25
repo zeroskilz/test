@@ -43,6 +43,14 @@
 ##### Finally Push your work!!! 
    * 91  git push -u origin master
 
+### make a branch 
+   * git branch tester
+##### switch to branch 
+   * git checkout tester
+
+##### Switch back to master
+   * git checkout master
+
 ![Github Logo](https://github.com/zeroskilz/test/blob/master/images.duckduckgo.com.jpeg "Social Coding")
 
 <!-- finito -->
