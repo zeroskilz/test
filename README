@@ -45,5 +45,10 @@ https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository
 # Finally Push your work!!! <!--fin--/>
    91  git push -u origin master
 
+Reference-style: 
+![alt text][logo]
 
-[[https://github.com/zeroskilz/test/blob/master/images.duckduckgo.com.jpeg|alt=github-social-coding]]
+[logo]:https://github.com/zeroskilz/test/blob/master/images.duckduckgo.com.jpeg "Social Coding"
+
+
+
