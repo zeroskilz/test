@@ -1,6 +1,6 @@
 # First Github Repository
 ### Sources for terminal commands
-![Github Logo](images)
+![Github Logo](https://github.com/zeroskilz/test/blob/master/images/gitscm.png)
 
 [Github Tutorial](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
 
@@ -60,7 +60,7 @@
 
 
 
-![Github Logo](https://github.com/zeroskilz/test/blob/master/images.duckduckgo.com.jpeg "Social Coding")
+![Github Logo](https://github.com/zeroskilz/test/blob/master/images/images.duckduckgo.com.jpeg "Social Coding")
 
 <!-- finito -->
 
